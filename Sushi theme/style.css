@@ -1,0 +1,702 @@
+/*
+
+Theme Name: Sushi Knight Theme
+
+Theme URI:
+
+Author: james
+
+Author URI: http://yourwebsite.com/
+
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+
+*/
+/* nav section */
+
+
+body{
+ max-width: 100%;
+ background-color: rgba(255, 214, 254, 0.05);
+}
+
+.container-fluid {
+  background-color: #FFD6E9;
+  color: #FFD6E9;
+  margin: -10px;
+  padding: 15px;
+  padding-bottom: 1px;
+  display: inline-block;
+  text-decoration: none!important;
+}
+
+.container-fluid a{
+  text-decoration: none!important;
+  color: #FF4689;
+}
+
+#nav-id li {
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  color white;
+  text-decoration: none;
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none!important;
+}
+
+
+
+
+
+/* first section */
+
+.sushi-container{
+  display: flex;
+}
+
+.sushi-girl{
+  float: right;
+  margin-bottom: -430px;
+  margin-left: -50px;
+}
+
+.sushi-text {
+  color: #FFD6E9;
+  font-size: 40px;
+  /* float: right; */
+}
+.sushi-text p{
+  padding: 5px;
+}
+.sushi-container{
+margin-bottom: 50px;
+}
+
+.pinkTitle{
+  background-color: #FCE3EC;
+  color: #FCE3EC;
+  padding-left: 100%;
+  padding-bottom: 490px;
+}
+
+#jTextOne {
+  margin-top: 5%;
+  margin-right: 40%;
+  float: right;
+}
+
+#jTextTwo {
+  margin-right: 20%;
+    float: right;
+}
+
+#jTextThree {
+  margin-right: 2%;
+  float: right;
+}
+
+.sushi-hero-text{
+  max-width: 1000px;
+  height: 400px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 42%;
+}
+
+.events-title{
+margin: 80px;
+margin-left: 10%;
+color: #E97CA3;
+  font-family: 'Montserrat', sans-serif;
+font-size: 60px;
+}
+
+
+.events-wraper{
+width: 80%;
+margin: 10%;
+margin-top: -10px;
+display: inline-block;
+}
+
+
+.calander{
+  /* width: 500px;
+  height: 500px; */
+
+  float: left;
+  margin-left: 25px;
+}
+
+.circle{
+  margin-top: 400px;
+  height: 300px;
+  width: 300px;
+  float: right;
+}
+
+#jTextfour{
+  width:1px;
+  font-size: 29px;
+  word-wrap: break-word;
+  float: left;
+  color: #E97CA3;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.top-game-card{
+font-family: 'Quicksand', sans-serif;
+  background-color: #FFD6FE;
+    font-weight: lighter;
+  border-radius: 50px;
+  padding: 10px;
+  color: #FF4689;
+  font-size: 25px;
+  text-align: center;
+}
+
+h5{
+  margin: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #FF4689;
+}
+
+h3{
+  margin: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+  color: #FF4689;
+  border-width: thin;
+  border-color: #2b2b2b;
+  border-bottom: ;
+}
+
+
+
+.divider{
+  object-fit: cover;
+  width: 100%;
+}
+
+.featured-mats-card{
+font-family: 'Quicksand', sans-serif;
+  background-color: #e3ecfc;
+    font-weight: lighter;
+  border-radius: 50px;
+  padding: 10px;
+  color: #2b2b2b;
+  font-size: 25px;
+  text-align: center;
+}
+
+#featured-mat-img{
+border-radius: 35px;
+}
+
+#test2{
+    text-decoration: none!important;
+}
+
+
+
+
+
+
+/* store page styles */
+
+.store-header-div{
+  display: flex;
+}
+
+.text-waper{
+  margin: 4%;
+  margin-left: 20%;
+}
+.text-waper h2{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: #FF4689;
+  font-size: 55px;
+  text-align: center;
+}
+.eng-header h2{
+  border-bottom: 2px;
+}
+
+.circle-on-store{
+  max-width: 250px;
+  max-height: 250px;
+  margin: 2%;
+  float: left;
+  margin-left: 22%;
+}
+
+
+.mat-card{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFD6FE;
+    font-weight: lighter;
+    border-radius: 50px;
+    padding: 10px;
+    color: #FF4689;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.mat-card h5{
+  font-size: 30px;
+}
+
+
+
+
+/* Community Post styles */
+.post-container{
+  margin: 5%;
+
+}
+
+.thumbnail{
+  float: right;
+  max-width: 40%;
+  width: auto;
+  max-height:100%;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-color: #FFD6E9;
+}
+
+.post-card{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  margin-top: 10px;
+  padding-right: 1px;
+  width: 80%;
+  height: 400px;
+  margin: 80px;
+  border-style: solid;
+  border-color: #FFD6E9;
+  margin-left: 9%;
+  background-color: rgb(216,214,255, 0.2);
+}
+
+.cardtitle p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.post-card h4{
+  margin: 30px;
+  margin-left: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #FF4689;
+  border-width: thin;
+  border-color: #2b2b2b;
+  border-bottom: 3px;
+}
+
+.test{
+  margin: 30px;
+}
+
+
+
+/* contact form styles */
+.sushi-girl-text-on-contact-form-breaking-point{
+  display: none;
+}
+.Contact-form-container{
+  margin-left: 5%;
+  display: inline-flex;
+  width: 90%;
+
+}
+
+.Column-one-for-contact-us-page{
+  width: 50%;
+
+}
+.Column-Two-for-contact-us-page{
+    width: 50%;
+
+}
+
+.text-waper-for-contact-us-page{
+  margin: 5%;
+  align-items: center;
+}
+
+.text-waper-for-contact-us-page h2{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: #E97CA3;
+  font-size: 55px;
+  text-align: center;
+}
+
+.eng-header h2{
+  border-bottom: 2px;
+}
+
+
+/* W3 contact form styles */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.form-container{
+margin: 6%;
+}
+
+.form-container label{
+  color: #E97CA3;
+}
+.form-container input{
+  border-color: #E97CA3;
+}
+.form-container textarea{
+  border-color: #E97CA3;
+}
+.form-container select{
+  border-color: #E97CA3;
+}
+#submit-button{
+  background-color:  #E97CA3;
+}
+
+
+
+/* footer styles */
+.divider-for-footer{
+  object-fit: cover;
+  width: 100%;
+}
+.card-group-footer{
+  width: 100%;
+background-color: #FCE3EC;
+display: inline-flex;
+}
+.footer-card{
+  background-color: #FCE3EC;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+  color: #FF4689;
+  font-size:120%;
+  text-align: center;
+  border: none;
+}
+
+
+/*
+/* woocomerce testing area */
+/*
+
+.products columns-2 li {
+  display: none;
+}
+
+li.product-category {
+  font-size: 200px;
+}
+
+
+.add_to_cart_button {
+display: none;
+} */
+
+/* added to cart message */
+/* .woocommerce-notices-wrapper{
+  align-self: center !important;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 25px;
+  background-color: #FFD6E9;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.ugh{
+display: flex;
+}
+
+.page-title {
+  display: none;
+} */
+
+/* hiding the diplay result number */
+/* .woocommerce-result-count {
+  display: none;
+} */
+
+/* hidding the sorting tag (we dont need this) */
+/* .woocommerce-ordering {
+  display: none;
+} */
+
+/* #wootest{
+justify-content: center;
+display: flex;
+
+} */
+
+/* #wootest li{
+  border-radius: 25px;
+  border-style: solid;
+  border-color: rgb(233,124,163, 0);
+  display: inline-flex;
+  margin: 2%;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 15px;
+  background-color: rgb(233,124,163, 0.4);
+  width:auto ;
+
+}
+
+.card-group{
+  display: inline-flex;
+  align-items: center;
+} */
+
+
+/* image display id link  (loop-start.php) */
+/* #mess img{
+  margin: 10px;
+  width: 520px;
+  height: 300px;
+  border-radius: 25px;
+} */
+
+
+/* #wootest li nth-child 2n {
+  background-color: red;
+} */
+
+/* styles for the product titles */
+/* .woocommerce-loop-product__title{
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+}
+
+/* styles for the product price number */
+/* .price{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+ */
+ .woocommerce{
+      max-width: 90%;
+      margin-left: 5%;
+      display: inline-grid;
+      background-color:
+      padding 50px;
+ }
+
+
+ .woocommerce img{
+    display: flex;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+ }
+
+ .woocommerce ul.products {
+   display: flex;
+   position: inline-flex !important;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: lighter;
+   align-items: center !important;
+   margin: 20px;
+ }
+
+
+ .woocommerce ul.products h2{
+   font-family: 'Quicksand', sans-serif;
+   font-weight: lighter;
+   padding: 10px;
+   color: #FF4689;
+ }
+
+ .woocommerce ul.products span{
+   font-family: 'Quicksand', sans-serif;
+   font-weight: lighter;
+   padding: 10px;
+   color: #FF4689;
+   margin-left: 20px;
+ }
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* body{
+  background-color: red;
+} */
+}
+@media only screen  and (min-width : 1824px) {
+  /* body{
+    background-color: blue;
+  } */
+}
+/* iPads (portrait and landscape) ----------- */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.container-fluid{
+  margin: 0;
+  margin-bottom: -10px;
+  padding: 0;
+  padding-bottom: 1px;
+  align-items: center;
+}
+#nav-logo{
+    display: none;
+}
+
+
+/* home page styles */
+  .sushi-text{
+    display: none;
+  }
+  .sushi-girl{
+    float: right;
+    margin-bottom: 0;
+    margin-left:0;
+    max-width: 200px;
+    width: 100px;
+  }
+  .sushi-girl-MQ{
+    float: 0;
+    margin:0;
+    max-width: 400px;
+    margin-left: 150%;
+    margin-bottom: -30%;
+    margin-top: 30%;
+  }
+  .sushi-hero-text{
+    align-items: center;
+    max-width: 90%;
+    height: auto;
+    float: 0;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 30px;
+  }
+
+.Up-coming-events-section{
+  display: none;
+}
+
+
+/* c post styles */
+.post-card{
+  background-color: none;
+  height: auto;
+}
+.post-card h4{
+  color: black;
+}
+
+.post-card p{
+  font-size:80%;
+  margin-left: 1%;
+  color: black;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.thumbnail{
+  height:  inherit;
+}
+
+
+
+/* store styles */
+.eng-header{
+  margin: none;
+
+}
+.store-header-div{
+  margin-left: 9%;
+}
+.circle-on-store{
+  display: none;
+}
+
+#wootest{
+  border: none;
+  margin-left: 8%;
+}
+
+#wootest li{
+
+}
+/* contact us form */
+.sushi-girl-on-contact-form{
+display: none;
+}
+.sushi-girl-text-on-contact-form{
+  display: none;
+}
+
+.sushi-girl-text-on-contact-form-breaking-point{
+  display: contents;
+  width: 50%;
+}
+
+
+}
